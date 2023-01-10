@@ -1,0 +1,13 @@
+{
+    "name": "Manipulative chart detector",
+    "version": "1.0.0",
+    "description": "",
+    "manifest_version": 3,
+    "author": "Konrad J. Maciborski",
+	"content_scripts":[
+    {
+     "matches":["<all_urls>"],
+     "js":["main.js"]
+    }
+  ]
+}
